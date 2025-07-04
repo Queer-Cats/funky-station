@@ -92,6 +92,12 @@
       path: /Audio/Voice/Reptilian/reptilian_scream.ogg
     Laugh:
       path: /Audio/Animals/lizard_happy.ogg
+    Gurgle:
+      collection: LizardGurgle
+    Chirp:
+      collection: LizardChirp
+    Hiss:
+      path: /Audio/_Impstation/Voice/Reptilian/reptillian_hiss1.ogg
     Honk:
       collection: BikeHorn
     Whistle:
@@ -116,6 +122,12 @@
       path: /Audio/Voice/Reptilian/reptilian_scream.ogg
     Laugh:
       path: /Audio/Animals/lizard_happy.ogg
+    Gurgle:
+      collection: LizardGurgle
+    Chirp:
+      collection: LizardChirp
+    Hiss:
+      path: /Audio/_Impstation/Voice/Reptilian/reptillian_hiss1.ogg
     Honk:
       collection: BikeHorn
     Whistle:
@@ -136,6 +148,14 @@
   sounds:
     Squish:
       collection: Squishes
+    Bubble:
+      collection: Bubbles
+    Slosh:
+      collection: Sloshes
+    Pop:
+      collection: Pops
+    Fizz:
+      collection: Fizzes
     Scream:
       collection: MaleScreams
     Laugh:
@@ -180,6 +200,14 @@
   sounds:
     Squish:
       collection: Squishes
+    Bubble:
+      collection: Bubbles
+    Slosh:
+      collection: Sloshes
+    Pop:
+      collection: Pops
+    Fizz:
+      collection: Fizzes
     Scream:
       collection: FemaleScreams
     Laugh:
@@ -441,6 +469,8 @@
       path: /Audio/Items/bikehorn.ogg
     Ping:
       path: /Audio/Effects/Cargo/ping.ogg
+    Scream:
+      collection: CyborgScream
 
 - type: emoteSounds
   id: UnisexSiliconSyndicate
@@ -461,6 +491,8 @@
       path: /Audio/Items/bikehorn.ogg
     Ping:
       path: /Audio/Effects/Cargo/ping.ogg
+    Scream:
+      collection: CyborgScream # TODO: May be good to create a separate collection and assets for Syndicate
 
 # body emotes
 - type: emoteSounds
